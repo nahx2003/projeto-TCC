@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand';
+}
+
+body{
+    line-height: 1.4;
+    color: #3c393d;
+}
+
+/*header*/
+header{
+    background-color:#fff;
+    color: #ff8d3e;
+    display: flex;
+    justify-content: space-evenly; /*tava space between*/
+    padding: 3px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagem-logo{
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 1.5rem;
+    
+}
+
+
+.navbar{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+
+
+.botao1{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    font-family: "Open Sans", sans-serif;
+    border-color: #ff8d3e;
+    color: #ff8d3e;
+    padding: 12px 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 35px;
+}  
+
+.botao1:hover {
+    background-color: #ff8d3e;
+    color: #fff;
+}
+
+.botao2 {
+    text-align: center;
+    cursor: pointer;
+    font-weight: 750;
+    font-family: "Open Sans", sans-serif;
+    border-color: #ff8d3e;
+    color: #ff8d3e;
+    padding: 12px 46px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.botao2:hover {
+    background-color: #ff8d3e;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+}
+/*fim do header*/
+
+/*section do banner*/
+.banner{
+    min-height: 55vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)), url(Imagens/bannerfraco.jpeg) center/
+    cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.container-banner{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+    margin-top: 1;
+}
+
+.banner{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-titulo{
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.banner-titulo span{
+    font-family:"Open Sans", sans-serif;
+    color: #ff8d3e;
+}
+
+.banner p{
+    padding: 1rem 0 2rem 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+    word-spacing: 2px;
+}
+
+.banner form{
+    background: #fff;
+    border-radius: 2rem;
+    padding: 0.6rem 3rem;
+    display: flex;
+    justify-content:space-between;
+}
+
+.search-input{
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    width: 100%;
+    outline: 0;
+    padding: 0.6rem;
+    border: none;
+}
+.search-btn{
+    width: 40px;
+    font-size: 1.1rem;
+    color: #2b2b2b;
+    border: none;
+    background: transparent;
+    outline: 0;
+    cursor: pointer;
+}
+/*final da section do banner*/
+
+
+
+
+
+/*cards*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 250px;
+    height: 330px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
+}
+
+/*cards header*/
+.card-header{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.card-img {
+min-width: 100%;
+width: auto;
+height: 95%;
+}
+
+/*card body*/
+.card-body {
+    height: 100px;
+    padding: 15px;
+   
+    font-family: sans-serif;
+}
+
+
+.card-titulo{
+    font-size: 21px;
+    margin: 0 10px;
+}
+.card-texto {
+    font-size: 14px;
+    width: 200px;
+  
+}
+
+.card-footer{
+    margin-top: 8px;
+    text-align: center;
+    background-color: #ff8d3e;
+}
+
+.card-footer a{
+    color: #fff;
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+/*animação dos cards*/
+.card:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.btn-vermais{
+    color: #000;
+    border-radius: 5px;
+    margin: 1rem 1rem;
+    padding: 0.7rem 1rem;
+}
+
+.btn-vermais:hover{
+    background: #ff8d3e;
+}
+
+
+
+
+
+
+
+
+/*cards*/
+.cards{
+    padding: 2rem;
+}
+
+
+
+
+
+
+
+/*scrollbar*/
+html::-webkit-scrollbar{
+    width: 0.7rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:#d3dbd7;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:#606160;
+    border-radius: 50px;
+}
+/* fim do scrollbar*/
+
+
+
+@media screen and(min-width: 540px){
+    
+    .banner-titulo{
+        font-size: 5rem;
+    }
+
+    .banner form{
+        margin-top: 1.4rem;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and(min-width: 768px){
+    .container-banner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .search-input{
+        padding: 0.8rem 0;
+    }
+
+    .design-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .design-item{
+        margin:0;
+    }
+
+    .blog-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+
+@media screen and(min-width:992px){
+    .blog-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/*footer*/
+footer{
+    text-align: center;
+}
+.social-links{
+    background-color: #000;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a{
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover{
+    background-color: #fff;
+    color: #ff8d3e;
+}
+
+.copy{
+    background-color: #ff8d3e;
+    color: #fff;
+    display: block;
+    font-family: sans-serif;
+}
+
+.link-copy{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.link-copy:hover{
+    color:#000 !important;
+} 
+/*final do footer*/
+
+
+
+
